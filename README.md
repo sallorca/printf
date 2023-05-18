@@ -18,3 +18,28 @@
     </ul>
   </body>
 </html>
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Parte obligatoria:</h1>
+    <ul>
+      <li>Nombre de programa: libftprintf.a</li>
+      <li>Archivos a entregar: Makefile, *.h, */*.h, *.c, */*.c</li>
+      <li>Makefile: NAME, all, clean, fclean, re</li>
+      <li>Funciones autorizadas: malloc, free, write, va_start, va_arg, va_copy, va_end</li>
+      <li>Se permite usar: libft (sí)</li>
+      <li>Descripción: Escribe una librería que contenga la función ft_printf(), que imite el printf() original. Debes reprogramar la función printf() de la libc. El prototipo de ft_printf() es: int ft_printf(char const *, ...).</li>
+      <li>Aquí tienes los requisitos:
+        <ul>
+          <li>No implementes la gestión del buffer del printf() original.</li>
+          <li>Deberás implementar las siguientes conversiones: cspdiuxX %</li>
+          <li>Tu función se comparará con el printf() original.</li>
+          <li>Tienes que usar el comando ar para crear tu librería. El uso de libtool command is forbidden.</li>
+          <li>Tu archivo libftprintf.a deberá ser creado en la raíz de tu repositorio.</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
