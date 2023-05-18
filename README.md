@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Instrucciones generales</title>
   </head>
   <body>
     <h1>Instrucciones generales:</h1>
